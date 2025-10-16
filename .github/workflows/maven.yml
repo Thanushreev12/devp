@@ -7,6 +7,11 @@ on:
 
 
 jobs:
+  git:
+     runs-on : ubuntu-latest
+     steps:
+     - uses: action/checkout@v4
+    
   build:
 
     runs-on: ubuntu-latest
